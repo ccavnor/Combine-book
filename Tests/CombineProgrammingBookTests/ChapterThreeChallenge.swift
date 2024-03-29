@@ -12,32 +12,6 @@ import Combine
 
 final class ChapterThreeChallenge: XCTestCase {
 
-    //    func test_() throws {
-    //    let expectation = XCTestExpectation(description: "")
-    //    var subscriptions = Set<AnyCancellable>()
-    //    var result = [String]()
-    //
-    //    example(of: "replaceNil") {
-    //      // create publisher from array of optional strings
-    //      ["A", nil, "C"].publisher
-    //        .eraseToAnyPublisher()
-    //        .replaceNil(with: "-") // replace nil with "-"
-    //        .sink(
-    //            receiveCompletion: {
-    //                print($0)
-    //                expectation.fulfill()
-    //            },
-    //            receiveValue: {
-    //                print($0)
-    //                result.append($0)
-    //            }
-    //        )
-    //        .store(in: &subscriptions)
-    //    }
-    //    XCTAssertEqual("", "")
-    //    wait(for: [expectation], timeout: 1.0)
-    //    }
-
     func test_Challenge() throws {
         let expectation = XCTestExpectation(description: "")
         var result = [String]()
