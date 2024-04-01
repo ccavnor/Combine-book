@@ -20,9 +20,9 @@ final class ChapterThreeTests: XCTestCase {
     func test_Collect() throws {
         let expectation = XCTestExpectation(description: "")
         var subscriptions = Set<AnyCancellable>()
-        var result1 = ["A", "B"]
-        var result2 = ["C", "D"]
-        var result3 = ["E"]
+        let result1 = ["A", "B"]
+        let result2 = ["C", "D"]
+        let result3 = ["E"]
         var results = [[String]]()
 
         ["A", "B", "C", "D", "E"].publisher
